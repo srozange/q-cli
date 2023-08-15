@@ -1,9 +1,5 @@
 name: Build
 
-on:
-  pull_request:
-    branches: [ main ]
-
 env:
   GRAAL_VERSION: '22.3.0'
   JAVA_VERSION: '17'
